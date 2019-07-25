@@ -1,0 +1,11 @@
+resource "aws_vpc" "demo_vpc" {
+  cidr_block = "10.0.0.0/16"
+  arn        = ""
+}
+
+resource "aws_subnet" "" {
+  cidr_block = ""
+  vpc_id     = "demo_vpc"
+}
+
+resource "aws_ec2_fleet" "" {}
